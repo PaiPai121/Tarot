@@ -1,11 +1,13 @@
 public enum Star{
     Uranus,
-    aaa
+    Mercury,
+    Moon
 
 }
 
 public enum Element{
-    Wind
+    Wind,
+    Water
 }
 
 public static class CardInfoTransfer{
@@ -14,6 +16,10 @@ public static class CardInfoTransfer{
             case Star.Uranus:
                 return "天王星"; 
                 // break;
+            case Star.Mercury:
+                return "水星";
+            case Star.Moon:
+                return "月亮";
             default:
                 return "";
         }
@@ -24,7 +30,8 @@ public static class CardInfoTransfer{
             case Element.Wind:
                 return "风";
                 // break;
-            
+            case Element.Water:
+                return "水";
             default:
                 return "";
         }
