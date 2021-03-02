@@ -62,6 +62,6 @@ public class Deck
                     "无心读书、吵闹的环境使得身心倍感疲惫",
         });
         // card finished
-
+        
     }
 }
